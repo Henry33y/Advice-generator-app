@@ -18,6 +18,8 @@ body{
 }
 .heading{
     color: var(--Neon-Green);
+    letter-spacing: 0.4em;
+    font-size: 0.8em;
 }
 .quote{
     color: var(--Light-Cyan);
