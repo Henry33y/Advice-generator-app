@@ -42,6 +42,18 @@ main{
 .dice:hover{
     box-shadow: 0 0 20px 10px var(--Neon-Green-low);
 }
+.dice:active{
+    animation-name: spin-dice;
+    animation-duration: 400ms;
+}
+@keyframes spin-dice{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
 .attribution{
     color: var(--Light-Cyan);
 }
