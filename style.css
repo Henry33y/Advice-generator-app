@@ -36,6 +36,7 @@ main{
     width: 50px;
     aspect-ratio: 1;
     background-color: var(--Neon-Green);
+    transition: box-shadow 500ms;
 
 }
 .dice:hover{
