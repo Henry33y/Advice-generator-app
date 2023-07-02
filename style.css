@@ -35,6 +35,7 @@ main{
 .dice{
     width: 50px;
     aspect-ratio: 1;
+    height: 50px !important;
     background-color: var(--Neon-Green);
     transition: box-shadow 500ms;
 
